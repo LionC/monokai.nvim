@@ -132,7 +132,6 @@ M.load_syntax = function(palette)
         },
         CursorLineNr = {
             fg = palette.orange,
-            bg = palette.base2,
         },
         MatchParen = {
             fg = palette.pink,
@@ -165,12 +164,10 @@ M.load_syntax = function(palette)
             fg = palette.brown,
         },
         LineNr = {
-            fg = palette.base5,
-            bg = palette.base2
+            fg = "#a49d9d",
         },
         SignColumn = {
             fg = palette.white,
-            bg = palette.base2,
         },
         StatusLine = {
             fg = palette.base7,
